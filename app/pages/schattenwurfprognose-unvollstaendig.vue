@@ -350,7 +350,7 @@ const months = [
                 <div class="mt-4">
                   <!-- Bild später ersetzen -->
                   <AssetImageViewer
-                    src="../assets/20.png"
+                    src="/20.png"
                     alt="Vorläufige Werte – Rotorblatttiefen (Schattenwurfprognose)"
                     ratio="16/9"
                   />
@@ -431,12 +431,12 @@ const months = [
                 <div class="mt-4">
                   <!-- Bild später ersetzen -->
                   <AssetImageViewer
-                    src="../assets/12.png"
+                    src="/12.png"
                     alt="Veränderung der Sonnenscheindauer (DWD) – Vergleich der Referenzperioden"
                     ratio="16/9"
                   />
                   <AssetImageViewer
-                    src="../assets/13.JPG"
+                    src="/13.JPG"
                     alt="Veränderung der Sonnenscheindauer (DWD) – Vergleich der Referenzperioden"
                     ratio="16/9"
                   />

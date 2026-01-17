@@ -252,7 +252,7 @@
             <div class="sticky top-24 space-y-4">
                 <UCard class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5">
                 <div class="text-sm font-semibold mb-3">Die Entfernung der Windkraftanlagen zu den Ortschaften</div>
-                <AssetImageViewer src="../assets/05.jpg" alt="Die Entfernung der Windkraftanlagen zu den Ortschaften" ratio="16/9" />
+                <AssetImageViewer src="/05.jpg" alt="Die Entfernung der Windkraftanlagen zu den Ortschaften" ratio="16/9" />
                
               </UCard>
   

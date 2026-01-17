@@ -497,7 +497,7 @@ useHead({
                 Mikroplastikabrieb bei Windrädern
               </div>
               <AssetImageViewer
-                src="../assets/07.png"
+                src="/07.png"
                 alt="Mikroplastikabrieb bei Windrädern"
                 ratio="16/9"
               />

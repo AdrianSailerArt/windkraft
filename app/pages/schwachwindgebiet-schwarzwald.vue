@@ -270,7 +270,7 @@ useHead({
                 Entwicklung der Rotordurchmesser
               </div>
               <AssetImageViewer
-                src="../assets/1.jpeg"
+                src="/1.jpeg"
                 alt="Weiterentwicklung der Rotordurchmesser"
                 ratio="16/9"
               />

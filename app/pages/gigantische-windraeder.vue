@@ -78,14 +78,14 @@ definePageMeta({
           <div class="bg-white dark:bg-gray-800 border rounded-lg p-4 shadow-sm">
              <UCard class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5">
                 <div class="text-sm font-semibold mb-3">Höhenprofil</div>
-                <AssetImageViewer src="../assets/03.jpg" alt="Höhenprofil" ratio="16/9" />
+                <AssetImageViewer src="/03.jpg" alt="Höhenprofil" ratio="16/9" />
                 <span class="text-sm font-semibold mb-3">Die jeweiligen Höhen sind maßstabgerecht eingezeichnet, Maßstab 1:5000 Höhen aus Angaben von Google Earth errechnet
 </span>
                
               </UCard>
                <UCard class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5">
                 <div class="text-sm font-semibold mb-3">Sexau mit den geplanten Windenergieanlagen</div>
-                <AssetImageViewer src="../assets/04.jpg" alt="Sexau mit den geplanten Windenergieanlagen" ratio="16/9" />
+                <AssetImageViewer src="/04.jpg" alt="Sexau mit den geplanten Windenergieanlagen" ratio="16/9" />
                
               </UCard>
            </div>

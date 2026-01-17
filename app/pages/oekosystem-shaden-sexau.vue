@@ -550,7 +550,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                 Transport eines Rotorblattes mit dem Bladefilter (Quelle: EnBW)
               </div>
               <AssetImageViewer
-                src="../assets/06.jpg"
+                src="/06.jpg"
                 alt="Transport eines Rotorblattes mit dem Bladefilter"
                 ratio="16/9"
               />
@@ -562,7 +562,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                 Der vermutlich geplante Zufahrsweg
               </div>
               <AssetImageViewer
-                src="../assets/07.jpg"
+                src="/07.jpg"
                 alt="Der vermutlich geplante Zufahrsweg"
                 ratio="16/9"
               />

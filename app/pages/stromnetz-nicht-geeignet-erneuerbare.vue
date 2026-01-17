@@ -206,7 +206,7 @@
                     </div>
                     <div class="mt-4">
                       <AssetImageViewer
-                      src="../assets/17.JPG"
+                      src="/17.JPG"
                         alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
                         ratio="16/9"
                       />
@@ -281,7 +281,7 @@
                     </div>
                     <div class="mt-4">
                       <AssetImageViewer
-                         src="../assets/16.JPG"
+                         src="/16.JPG"
                         alt="Anzahl der Stunden mit negativen Börsenstrompreisen pro Jahr seit 2015"
                         ratio="16/9"
                       />

@@ -365,7 +365,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                 Blick von der Hochburg mit den geplanten Windrädern
               </div>
               <AssetImageViewer
-                src="../assets/10.jpg"
+                src="/10.jpg"
                 alt="Blick von der Hochburg mit den geplanten Windrädern"
                 ratio="16/9"
               />
