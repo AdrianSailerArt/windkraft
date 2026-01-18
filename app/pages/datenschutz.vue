@@ -137,15 +137,23 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               6. Cookies
             </h2>
             <div class="text-gray-700 dark:text-gray-300 space-y-3">
-              <p>
-                Diese Website setzt minimal Cookies. Wenn Cookies verwendet werden, erfolgt dies entweder:
+              <p class="font-semibold text-emerald-700 dark:text-emerald-300">
+                ✓ Diese Website setzt KEINE Cookies.
               </p>
-              <ul class="list-disc ml-6 space-y-1">
-                <li>Auf Basis Ihrer ausdrücklichen Einwilligung, oder</li>
-                <li>Zur Gewährleistung der technischen Funktionalität der Website</li>
-              </ul>
               <p>
-                Sie können Cookies in den Einstellungen Ihres Browsers deaktivieren.
+                Wir verwenden keine Cookies, Tracker oder Analyse-Tools, die personenbezogene Daten sammeln. Ihre Privatsphäre ist vollständig geschützt.
+              </p>
+              <p class="text-sm text-gray-600 dark:text-gray-400">
+                <strong>Das bedeutet:</strong>
+              </p>
+              <ul class="list-disc ml-6 space-y-1 text-sm">
+                <li>Keine Google Analytics oder andere Tracking-Tools</li>
+                <li>Keine Werbe-Cookies</li>
+                <li>Keine Cookies zur Benutzerprofilierung</li>
+                <li>Keine Cookie-Banner erforderlich</li>
+              </ul>
+              <p class="text-sm text-gray-600 dark:text-gray-400 mt-3">
+                <strong>Serverhosting bei Vercel:</strong> Der Hosting-Provider Vercel setzt ebenfalls keine Cookies, solange Sie keine optionalen Analytics-Funktionen aktivieren.
               </p>
             </div>
           </div>
