@@ -3,57 +3,46 @@ useHead({
   meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
   link: [{ rel: "icon", href: "/favicon.ico" }],
   htmlAttrs: {
-    lang: "en",
+    lang: "de",
   },
 });
 
-const title = "Nuxt Starter Template";
+const title = "Stoppen Sie die Windparks im Sexauer Peterswald";
 const description =
-  "A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours.";
+  "Eine Petition als Portfolio: Gründe, Kapitel und Fakten – kuratiert, klar, hochwertig. Artenschutz, Denkmalschutz, Rückbau, Schattenwurf, Netz, EEG und Folgen für Sexau.";
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: "https://ui.nuxt.com/assets/templates/nuxt/starter-light.png",
-  twitterImage: "https://ui.nuxt.com/assets/templates/nuxt/starter-light.png",
+  ogType: "website",
   twitterCard: "summary_large_image",
 });
 </script>
 
 <template>
-  <UApp>
+  <div class="flex flex-col min-h-screen">
     <UHeader>
       <template #left>
-        <NuxtLink to="/">
-        Startseite
+        <NuxtLink to="/" class="font-bold text-lg">
+          🌍 Windkraft Sexau
         </NuxtLink>
-       
 
-        <TemplateMenu />
+        <NavigationMenu />
       </template>
 
       <template #right>
-          <NuxtLink to="/impressum">
-        Impressum
-        </NuxtLink>
-        <UColorModeButton />
+        <div class="flex items-center gap-4">
+          <UColorModeButton />
+        </div>
       </template>
     </UHeader>
 
-    <UMain>
+    <UMain class="flex-grow">
       <NuxtPage />
     </UMain>
 
-    <USeparator icon="i-simple-icons-nuxtdotjs" />
-
-    <UFooter>
-      <template #left>
-        <p class="text-sm text-muted">
-          Built with Nuxt UI • © {{ new Date().getFullYear() }}
-        </p>
-      </template>
-    </UFooter>
-  </UApp>
+    <SiteFooter />
+  </div>
 </template>
