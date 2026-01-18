@@ -66,17 +66,27 @@ useSeoMeta({
          
 
           <!-- Footer -->
-          <div class="pt-6 border-t border-gray-200/60 dark:border-gray-800/60 text-sm text-gray-600 dark:text-gray-400">
-            <p>
-              Erstellt mit
-              <a href="https://impressum-generator.de" target="_blank" rel="noopener" class="text-primary-600 dark:text-primary-400 hover:underline">
-                Impressum-Generator.de
-              </a>
-              und
-              <a href="https://impressum-generator.de/datenschutz-generator" target="_blank" rel="noopener" class="text-primary-600 dark:text-primary-400 hover:underline">
-                Datenschutz-Generator
-              </a>
-            </p>
+          <div class="pt-6 border-t border-gray-200/60 dark:border-gray-800/60">
+            <div class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              <p>
+                Erstellt mit
+                <a href="https://impressum-generator.de" target="_blank" rel="noopener" class="text-primary-600 dark:text-primary-400 hover:underline">
+                  Impressum-Generator.de
+                </a>
+                und
+                <a href="https://impressum-generator.de/datenschutz-generator" target="_blank" rel="noopener" class="text-primary-600 dark:text-primary-400 hover:underline">
+                  Datenschutz-Generator
+                </a>
+              </p>
+            </div>
+            <div class="flex gap-4">
+              <NuxtLink to="/datenschutz" class="text-primary-600 dark:text-primary-400 hover:underline">
+                → Zur Datenschutzerklärung
+              </NuxtLink>
+              <NuxtLink to="/" class="text-primary-600 dark:text-primary-400 hover:underline">
+                → Zur Startseite
+              </NuxtLink>
+            </div>
           </div>
         </div>
       </div>
