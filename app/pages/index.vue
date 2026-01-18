@@ -142,7 +142,7 @@ const quickReasons = [
   {
     tone: "indigo",
     title: "Planungsrechtliche Gründe",
-    text: "Der gesetzlichen Verpflichtung zum Rückbau der Windenergieanlagen nach deren Stillle-gung wird nur teilweise entsprochen. Die Schattenwurfprognose enthält grobe Berechnungsfehler.",
+    text: "Der gesetzlichen Verpflichtung zum Rückbau der Windenergieanlagen nach deren Stilllegung wird nur teilweise entsprochen. Die Schattenwurfprognose enthält grobe Berechnungsfehler.",
   },
   {
     tone: "orange",

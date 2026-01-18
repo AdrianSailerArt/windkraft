@@ -1,25 +1,85 @@
-<template><h1>Impressum</h1> 
-<p>Angaben gemäß § 5 DDG</p> 
-<p>Max Muster - Musterberuf<br> 
-c/o Beispielbüro<br> 
-Musterweg<br> 
-12345 Musterstadt <br> 
-</p> 
-<p> <strong>Vertreten durch: </strong><br>
-Max Muster<br>
-</p> 
-<p><strong>Kontakt:</strong> <br>
-Telefon: 01234-789456<br>
-Fax: 1234-56789<br>
-E-Mail: <a>max@muster.de</a></br></p> 
-<p><strong>Umsatzsteuer-ID: </strong> <br>
-Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: Musterustid.<br><br>
-<strong>Wirtschafts-ID: </strong><br>
-Musterwirtschaftsid<br>
-</p> 
-<p><strong>Aufsichtsbehörde:</strong><br>
-Musteraufsicht Musterstadt<br></p> 
-<p><strong>Verbraucherstreitbeilegung / Universalschlichtungsstelle</strong>
-<br>Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind dazu auch nicht verpflichtet.
-</p> 
-<p>Erstellt mit <a href="https://impressum-generator.de" rel="dofollow">Impressum-Generator.de</a>, dem Tool für Impressum und <a href="https://impressum-generator.de/datenschutz-generator" rel="dofollow">Datenschutz-Erklärung</a>. Nach einer Vorlage der <a href="https://www.kanzlei-hasselbach.de/" rel="dofollow">Kanzlei Hasselbach</a>.</p></template>
+<script setup lang="ts">
+const title = "Impressum";
+const description = "Impressum und Kontaktinformation";
+
+useSeoMeta({
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+  ogType: "website",
+});
+</script>
+
+<template>
+  <div class="min-h-screen bg-white dark:bg-gray-950">
+    <UContainer class="py-24">
+      <div class="max-w-3xl mx-auto">
+        <!-- Header -->
+        <div class="mb-12">
+          <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            Impressum
+          </h1>
+          <p class="text-lg text-gray-600 dark:text-gray-400">
+            Angaben gemäß § 5 TMG (Telemediengesetz)
+          </p>
+        </div>
+
+        <!-- Content Grid -->
+        <div class="space-y-8">
+          <!-- Kontakt -->
+          <div class="rounded-2xl border border-gray-200/60 dark:border-gray-800/60 bg-white/50 dark:bg-gray-950/30 p-6">
+            <h2 class="text-xl font-bold text-gray-900 dark:text-white mb-4">
+              Kontakt
+            </h2>
+            <div class="space-y-2 text-gray-700 dark:text-gray-300">
+              <p>Heidrun Schwörer</p>
+            
+              <p>Am Löwengarten 14</p>
+              <p>79350 Sexau</p>
+            </div>
+          </div>
+
+        
+
+          <!-- Kommunikation -->
+          <div class="rounded-2xl border border-gray-200/60 dark:border-gray-800/60 bg-white/50 dark:bg-gray-950/30 p-6">
+            <h2 class="text-xl font-bold text-gray-900 dark:text-white mb-4">
+              Kommunikation
+            </h2>
+            <div class="space-y-2 text-gray-700 dark:text-gray-300">
+            
+            
+              <p>
+                <strong>E-Mail:</strong>
+                <a href="mailto:info@timeless-well.de" class="text-primary-600 dark:text-primary-400 hover:underline">
+                  info@timeless-well.de
+                </a>
+              </p>
+            </div>
+          </div>
+
+        
+
+        
+
+         
+
+          <!-- Footer -->
+          <div class="pt-6 border-t border-gray-200/60 dark:border-gray-800/60 text-sm text-gray-600 dark:text-gray-400">
+            <p>
+              Erstellt mit
+              <a href="https://impressum-generator.de" target="_blank" rel="noopener" class="text-primary-600 dark:text-primary-400 hover:underline">
+                Impressum-Generator.de
+              </a>
+              und
+              <a href="https://impressum-generator.de/datenschutz-generator" target="_blank" rel="noopener" class="text-primary-600 dark:text-primary-400 hover:underline">
+                Datenschutz-Generator
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </UContainer>
+  </div>
+</template>
