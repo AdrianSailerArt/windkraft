@@ -2,13 +2,19 @@
 const title = "Datenschutzerklärung – Gegenwind Sexau";
 const description = "Datenschutzerklärung und Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO auf gegenwind-sexau.de";
 
-usePageMeta(
+useSeoMeta({
   title,
   description,
-  "datenschutz",
-  title,
-  description
-);
+  ogTitle: title,
+  ogDescription: description,
+  ogType: "website",
+});
+
+const config = useRuntimeConfig();
+const canonical = config.public?.siteUrl
+  ? `${config.public.siteUrl}/datenschutz`
+  : undefined;
+useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
 </script>
 
 <template>

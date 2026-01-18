@@ -2,13 +2,19 @@
 const title = "Impressum – Gegenwind Sexau";
 const description = "Impressum und Kontaktinformation von Gegenwind Sexau, eine Petition gegen die geplanten Windparks im Sexauer Peterswald";
 
-usePageMeta(
+useSeoMeta({
   title,
   description,
-  "impressum",
-  title,
-  description
-);
+  ogTitle: title,
+  ogDescription: description,
+  ogType: "website",
+});
+
+const config = useRuntimeConfig();
+const canonical = config.public?.siteUrl
+  ? `${config.public.siteUrl}/impressum`
+  : undefined;
+useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
 </script>
 
 <template>
