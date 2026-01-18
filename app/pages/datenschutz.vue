@@ -1,20 +1,14 @@
 <script setup lang="ts">
-const title = "Datenschutzerklärung";
-const description = "Datenschutzerklärung und Informationen zur Datenverarbeitung";
+const title = "Datenschutzerklärung – Gegenwind Sexau";
+const description = "Datenschutzerklärung und Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO auf gegenwind-sexau.de";
 
-useSeoMeta({
+usePageMeta(
   title,
   description,
-  ogTitle: title,
-  ogDescription: description,
-  ogType: "website",
-});
-
-const config = useRuntimeConfig();
-const canonical = config.public?.siteUrl
-  ? `${config.public.siteUrl}/datenschutz`
-  : undefined;
-useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
+  "datenschutz",
+  title,
+  description
+);
 </script>
 
 <template>
@@ -43,8 +37,8 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               <p>Am Löwengarten 14<br />79350 Sexau</p>
               <p>
                 <strong>E-Mail:</strong>
-                <a href="mailto:info@timeless-well.de" class="text-primary-600 dark:text-primary-400 hover:underline">
-                  info@timeless-well.de
+                <a href="mailto:info@gegenwind-sexau.de" class="text-primary-600 dark:text-primary-400 hover:underline">
+                 info@gegenwind-sexau.de
                 </a>
               </p>
             </div>
@@ -181,8 +175,8 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               </ul>
               <p class="mt-3">
                 Kontaktieren Sie uns unter
-                <a href="mailto:info@timeless-well.de" class="text-primary-600 dark:text-primary-400 hover:underline">
-                  info@timeless-well.de
+                <a href="mailto:info@gegenwind-sexau.de" class="text-primary-600 dark:text-primary-400 hover:underline">
+                 info@gegenwind-sexau.de
                 </a>
                 zur Geltendmachung dieser Rechte.
               </p>
@@ -214,8 +208,8 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                 Bei Fragen zum Datenschutz kontaktieren Sie uns:
               </p>
               <p>
-                <a href="mailto:info@timeless-well.de" class="text-primary-600 dark:text-primary-400 hover:underline">
-                  info@timeless-well.de
+                <a href="mailto:info@gegenwind-sexau.de" class="text-primary-600 dark:text-primary-400 hover:underline">
+                 info@gegenwind-sexau.de
                 </a>
               </p>
               <p>

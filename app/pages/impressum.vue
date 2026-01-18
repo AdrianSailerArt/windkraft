@@ -1,14 +1,14 @@
 <script setup lang="ts">
-const title = "Impressum";
-const description = "Impressum und Kontaktinformation";
+const title = "Impressum – Gegenwind Sexau";
+const description = "Impressum und Kontaktinformation von Gegenwind Sexau, eine Petition gegen die geplanten Windparks im Sexauer Peterswald";
 
-useSeoMeta({
+usePageMeta(
   title,
   description,
-  ogTitle: title,
-  ogDescription: description,
-  ogType: "website",
-});
+  "impressum",
+  title,
+  description
+);
 </script>
 
 <template>
@@ -52,8 +52,8 @@ useSeoMeta({
             
               <p>
                 <strong>E-Mail:</strong>
-                <a href="mailto:info@timeless-well.de" class="text-primary-600 dark:text-primary-400 hover:underline">
-                  info@timeless-well.de
+                <a href="mailto:info@gegenwind-sexau.de" class="text-primary-600 dark:text-primary-400 hover:underline">
+                info@gegenwind-sexau.de
                 </a>
               </p>
             </div>

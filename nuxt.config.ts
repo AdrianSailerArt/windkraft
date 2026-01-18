@@ -4,6 +4,14 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image'],
 
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://gegenwind-sexau.de',
+      siteName: 'Gegenwind Sexau',
+      siteDescription: 'Eine Petition gegen die geplanten Windparks im Sexauer Peterswald. Artenschutz, Denkmalschutz, Infraschall und Folgen für die Gemeinde Sexau.',
+    }
+  },
+
   devtools: {
     enabled: true
   },
@@ -16,7 +24,15 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   routeRules: {
-    '/': { prerender: true }
+    '/': { prerender: true },
+    '/**': { prerender: true }
+  },
+
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/sitemap.xml', '/robots.txt'],
+    }
   },
 
   compatibilityDate: '2025-01-15',

@@ -5,10 +5,10 @@
         <!-- Branding -->
         <div>
           <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">
-            Windkraft Sexau
+          gegenwind-sexau.de 
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400">
-            Eine Petition für nachhaltiges Denken im Peterswald
+            Eine Petition für nachhaltiges Denken im Sexauer Peterswald
           </p>
         </div>
 

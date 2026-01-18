@@ -7,9 +7,12 @@ useHead({
   },
 });
 
-const title = "Stoppen Sie die Windparks im Sexauer Peterswald";
+const title = "Gegenwind Sexau – Petition gegen Windparks im Peterswald";
 const description =
-  "Eine Petition als Portfolio: Gründe, Kapitel und Fakten – kuratiert, klar, hochwertig. Artenschutz, Denkmalschutz, Rückbau, Schattenwurf, Netz, EEG und Folgen für Sexau.";
+  "Eine Petition gegen die geplanten Windparks im Sexauer Peterswald. Artenschutz, Denkmalschutz, Infraschall, Rückbau und Folgen für die Gemeinde Sexau.";
+
+const config = useRuntimeConfig();
+const siteUrl = config.public?.siteUrl || 'https://gegenwind-sexau.de';
 
 useSeoMeta({
   title,
@@ -17,7 +20,19 @@ useSeoMeta({
   ogTitle: title,
   ogDescription: description,
   ogType: "website",
+  ogUrl: siteUrl,
+  ogSiteName: 'Gegenwind Sexau',
   twitterCard: "summary_large_image",
+  twitterSite: '@gegenwindSexau',
+  author: 'Heidrun Schwörer',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+});
+
+useHead({
+  link: [
+    { rel: 'canonical', href: siteUrl },
+    { rel: 'alternate', hrefLang: 'de', href: `${siteUrl}/` },
+  ],
 });
 </script>
 
@@ -25,8 +40,9 @@ useSeoMeta({
   <div class="flex flex-col min-h-screen">
     <UHeader>
       <template #left>
-        <NuxtLink to="/" class="font-bold text-lg">
-          🌍 Windkraft Sexau
+        <NuxtLink to="/" class="flex items-center gap-2">
+          <img src="/logo.png" alt="Gegenwind Sexau" class="h-8 w-8" />
+          <span class="font-bold text-lg">Gegenwind Sexau</span>
         </NuxtLink>
 
         <NavigationMenu />

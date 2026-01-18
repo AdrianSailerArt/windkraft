@@ -216,7 +216,7 @@
                           </p>
                           <!-- Optional: wenn du das PDF unter /public ablegst, Link aktivieren -->
                           <a
-                            href="/DSV2025-210-Windpark-PII-03_WKAs_03-04_Sexau-Peterswald_UVP-VP_20250317.pdf"
+                            href="https://sexau.mein-intra.net/data/file/councilservice/2/1/3/4/DSV2025-210-Windpark-PII-03_WKAs_03-04_Sexau-Peterswald_UVP-VP_20250317.pdf"
                             class="mt-2 inline-flex items-center gap-2 text-indigo-600 hover:underline dark:text-indigo-300 text-sm"
                             target="_blank"
                             rel="noopener"
@@ -224,9 +224,7 @@
                             <UIcon name="i-lucide-file-text" class="h-4 w-4" />
                             PDF öffnen
                           </a>
-                          <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
-                            (Falls der Link bei dir noch nicht existiert: PDF bitte in <code>/public</code> ablegen.)
-                          </p>
+                          
                         </div>
     
                         <a

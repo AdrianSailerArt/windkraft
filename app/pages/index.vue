@@ -188,16 +188,19 @@ const quickReasons = [
               Eine Entscheidung, die nicht rückgängig ist
             </p>
 
-            <h1
-              class="mt-3 text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.05]"
-            >
-              Erhalten wir Sexau.
-              <span
-                class="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-emerald-700 via-amber-700 to-rose-700 dark:from-emerald-300 dark:via-amber-300 dark:to-rose-300"
+            <div class="mt-8 flex items-start gap-4">
+              <img src="/logo.png" alt="Gegenwind Sexau" class="h-40 w-40 flex-shrink-0" />
+              <h1
+                class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.05]"
               >
-                Nicht später. Jetzt.
-              </span>
-            </h1>
+                Erhalten wir Sexau.
+                <span
+                  class="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-emerald-700 via-amber-700 to-rose-700 dark:from-emerald-300 dark:via-amber-300 dark:to-rose-300"
+                >
+                  Nicht später. Jetzt.
+                </span>
+              </h1>
+            </div>
 
             <p class="mt-6 max-w-3xl text-lg text-gray-700 dark:text-gray-300">
               Der Sexauer Peterswald ist kein „Bauplatz“. Er ist Lebensraum,

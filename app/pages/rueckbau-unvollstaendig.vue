@@ -275,7 +275,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                       </p>
                       <!-- Optional: wenn du die Datei in /public ablegst -->
                       <a
-                        href="/DSV2025-197-Windpark-PI-2-1_2025_Kurzbeschreibung_SEPI_v1.pdf"
+                        href="https://sexau.mein-intra.net/data/file/councilservice/2/1/1/6/DSV2025-197-Windpark-PI-2-1_2025_Kurzbeschreibung_SEPI_v1.pdf"
                         class="mt-2 inline-flex items-center gap-2 text-indigo-600 hover:underline dark:text-indigo-300 text-sm"
                         target="_blank"
                         rel="noopener"
@@ -283,11 +283,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                         <UIcon name="i-lucide-file-text" class="h-4 w-4" />
                         Dokument öffnen
                       </a>
-                      <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
-                        (Falls der Link bei dir noch nicht existiert: Datei
-                        bitte in <code>/public</code> ablegen und Namen
-                        anpassen.)
-                      </p>
+                     
                     </div>
 
                     <a
