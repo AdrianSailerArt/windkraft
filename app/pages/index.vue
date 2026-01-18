@@ -209,7 +209,7 @@ const quickReasons = [
             </p>
 
             <div class="mt-8 flex flex-col sm:flex-row gap-3">
-              <UButton color="primary" size="lg" icon="i-lucide-pen-line">
+              <UButton color="primary" size="lg" icon="i-lucide-pen-line" aria-label="Petition gegen Windparks im Sexauer Peterswald unterschreiben">
                 Petition unterschreiben
               </UButton>
             </div>

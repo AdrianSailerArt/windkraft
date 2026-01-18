@@ -83,10 +83,12 @@ const menuItems = [chapters.map(chapter => ({ label: chapter.title, to: chapter.
       icon="i-lucide-menu" 
       color="primary" 
       variant="ghost"
+      aria-label="Navigation Menü öffnen"
+      :aria-expanded="isOpen"
       @click="isOpen = !isOpen"
     />
     
-    <UCard v-if="isOpen" class="absolute top-14 left-0 right-0 rounded-none border-b border-l border-r border-gray-200 dark:border-gray-800 z-50">
+    <UCard v-if="isOpen" role="navigation" aria-label="Kapitel Navigation" class="absolute top-14 left-0 right-0 rounded-none border-b border-l border-r border-gray-200 dark:border-gray-800 z-50">
       <ul class="space-y-2">
         <li v-for="chapter in chapters" :key="chapter.to">
           <NuxtLink 

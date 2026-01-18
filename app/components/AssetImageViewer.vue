@@ -48,8 +48,8 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown));
         <button
             type="button"
             class="group relative block w-full overflow-hidden rounded-2xl border border-gray-200/70 dark:border-gray-800/70 bg-white/60 dark:bg-gray-950/30 shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500"
+            :aria-label="alt || 'Bild vergrößert anzeigen'"
             @click="open"
-            :aria-label="alt || 'Bild öffnen'"
         >
             <div class="relative w-full" :class="ratio ? '' : 'aspect-[16/9]'" :style="ratio ? { aspectRatio: ratio } : undefined">
               
@@ -86,6 +86,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown));
                         <!-- Close button -->
                         <button
                             type="button"
+                            aria-label="Vollbild schließen (Escape-Taste)"
                             class="absolute -top-12 right-0 rounded-xl bg-white/10 px-3 py-2 text-sm text-white hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
                             @click="close"
                         >

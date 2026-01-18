@@ -4,9 +4,9 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
         <!-- Branding -->
         <div>
-          <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">
+          <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-2">
           gegenwind-sexau.de 
-          </h3>
+          </h2>
           <p class="text-sm text-gray-600 dark:text-gray-400">
             Eine Petition für nachhaltiges Denken im Sexauer Peterswald
           </p>
@@ -14,9 +14,9 @@
 
         <!-- Links -->
         <div>
-          <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-4 uppercase tracking-wide">
+          <h3 class="text-sm font-semibold text-gray-900 dark:text-white mb-4 uppercase tracking-wide">
             Seiten
-          </h4>
+          </h3>
           <ul class="space-y-2">
             <li>
               <NuxtLink to="/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400">
