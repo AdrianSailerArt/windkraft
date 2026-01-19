@@ -41,7 +41,7 @@ useHead({
     <UHeader>
       <template #left>
         <NuxtLink to="/" class="flex items-center gap-2">
-          <img src="/logo.png" alt="Gegenwind Sexau" class="h-8 w-8" />
+          <img src="/logo.png" alt="Gegenwind Sexau" class="h-8 w-auto" />
           <span class="font-bold text-lg">Gegenwind Sexau</span>
         </NuxtLink>
 

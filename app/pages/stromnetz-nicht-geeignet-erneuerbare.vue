@@ -20,9 +20,7 @@ const canonical = config.public?.siteUrl
   : undefined;
 useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
 
-// Für die beiden Grafiken (bitte Pfade anpassen / Dateien in /assets oder /public ablegen)
-const imgMaxFeedIn = "~/assets/max-einspeisung-wind-2022.png";
-const imgNegativePrices = "~/assets/negative-boersenpreise-stunden.png";
+
 </script>
 
 <template>
@@ -326,7 +324,7 @@ const imgNegativePrices = "~/assets/negative-boersenpreise-stunden.png";
                 </div>
                 <div class="mt-4">
                   <AssetImageViewer
-                    src="/17.JPG"
+                    src="/15.JPG"
                     alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
                     ratio="16/9"
                   />
@@ -661,13 +659,7 @@ const imgNegativePrices = "~/assets/negative-boersenpreise-stunden.png";
               </p>
             </UCard>
 
-            <UAlert
-              color="neutral"
-              variant="soft"
-              icon="i-lucide-image"
-              title="Grafiken einbinden"
-              description="Lege die beiden Grafik-Dateien in /assets oder /public ab und passe imgMaxFeedIn/imgNegativePrices oben an."
-            />
+
           </div>
         </aside>
       </div>
