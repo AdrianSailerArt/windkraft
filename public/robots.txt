@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Kommentar: Seite ist noch in Entwicklung und soll nicht indexiert werden
+# Um Indexierung zu aktivieren, ändere "Disallow: /" zu "Disallow:"

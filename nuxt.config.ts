@@ -31,8 +31,8 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/sitemap.xml'],
-      ignore: ['/robots.txt']
+      // sitemap.xml wird nicht prerendered während Seite nicht indexiert werden soll
+      ignore: ['/robots.txt', '/sitemap.xml']
     }
   },
 
