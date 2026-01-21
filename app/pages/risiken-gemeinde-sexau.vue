@@ -128,14 +128,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                 </div>
               </div>
 
-              <UAlert
-                class="mt-6"
-                color="neutral"
-                variant="soft"
-                icon="i-lucide-info"
-                title="Hinweis"
-                description="Text bleibt unverändert; Gestaltung erzeugt Leseführung und Trennung der Argumente."
-              />
+            
             </div>
           </div>
         </div>
