@@ -1,68 +1,8 @@
 <script setup lang="ts">
+import { chapters } from '~/composables/chapters'
 const isOpen = ref(false);
 
-const chapters = [
-  {
-    tone: "emerald",
-    icon: "i-lucide-trees",
-    title: "Massive Schäden im Ökosystem",
-    to: "/oekosystem-shaden-sexau",
-  },
-  {
-    tone: "cyan",
-    icon: "i-lucide-bug",
-    title: "Der Dohlenkrebs – vom Aussterben bedroht",
-    to: "/dohlenkrebs-aussterben-sexau",
-  },
-  {
-    tone: "orange",
-    icon: "i-lucide-landmark",
-    title: "Die Hochburg – Kulturdenkmal",
-    to: "/hochburg-kulturdenkmal",
-  },
-  {
-    tone: "indigo",
-    icon: "i-lucide-sun",
-    title: "Schattenwurfprognose – unvollständig",
-    to: "/schattenwurfprognose-unvollstaendig",
-  },
-  {
-    tone: "rose",
-    icon: "i-lucide-hammer",
-    title: "Rückbau – nur unvollständig",
-    to: "/rueckbau-unvollstaendig",
-  },
-  {
-    tone: "slate",
-    icon: "i-lucide-volume-2",
-    title: "Schall und Infraschall",
-    to: "/schall-infraschall",
-  },
-  {
-    tone: "amber",
-    icon: "i-lucide-home",
-    title: "Immobilienwerte & Tourismus",
-    to: "/sinkender-tourismus",
-  },
-  {
-    tone: "red",
-    icon: "i-lucide-shield-alert",
-    title: "Risiken für die Gemeinde Sexau",
-    to: "/risiken-gemeinde-sexau",
-  },
-  {
-    tone: "sky",
-    icon: "i-lucide-activity",
-    title: "Stromnetz – nicht geeignet",
-    to: "/stromnetz-nicht-geeignet-erneuerbare",
-  },
-  {
-    tone: "violet",
-    icon: "i-lucide-scale",
-    title: "EEG – wie lange noch?",
-    to: "/eeg-wie-lange-noch",
-  },
-];
+
 
 const menuItems = [chapters.map(chapter => ({ label: chapter.title, to: chapter.to }))];
 </script>
