@@ -30,6 +30,7 @@ const quickReasons = [
 
 <template>
   <div>
+      <ChapterNavigation class="mt-16" />
     <section class="mt-14">
       <div class="mx-auto max-w-6xl">
         <p

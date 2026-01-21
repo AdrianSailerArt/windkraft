@@ -35,7 +35,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
         class="absolute bottom-0 left-1/2 h-96 w-[52rem] -translate-x-1/2 rounded-full bg-indigo-100/35 blur-3xl dark:bg-indigo-900/12"
       />
     </div>
-
+  <ChapterNavigation class="mt-16" />
     <UContainer class="relative py-12">
       <!-- HERO -->
       <UCard

@@ -17,6 +17,7 @@ definePageMeta({
 
 <template>
   <UContainer class="py-12">
+      <ChapterNavigation class="mt-16" />
     <header class="mb-10 rounded-lg overflow-hidden shadow-md bg-gradient-to-r from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
       <div class="py-10 px-6 text-center">
         <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">

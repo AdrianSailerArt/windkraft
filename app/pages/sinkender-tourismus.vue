@@ -36,7 +36,7 @@
           class="absolute bottom-0 left-1/2 h-96 w-[50rem] -translate-x-1/2 rounded-full bg-emerald-100/45 blur-3xl dark:bg-emerald-900/14"
         />
       </div>
-  
+    <ChapterNavigation class="mt-16" />
       <UContainer class="relative py-12">
         <!-- HERO -->
         <UCard

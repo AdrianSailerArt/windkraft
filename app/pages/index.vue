@@ -3,7 +3,7 @@
 const title = "Stoppen Sie die Windparks im Sexauer Peterswald";
 const description =
   "Eine Petition als Portfolio: Gründe, Kapitel und Fakten – kuratiert, klar, hochwertig. Artenschutz, Denkmalschutz, Rückbau, Schattenwurf, Netz, EEG und Folgen für Sexau.";
-
+import { chapters } from "~/composables/chapters";
 useSeoMeta({
   title,
   description,
@@ -21,104 +21,7 @@ const canonical = config.public?.siteUrl
 useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
 
 // Bitte ggf. Slugs anpassen:
-const chapters = [
-  {
-    tone: "emerald",
-    icon: "i-lucide-trees",
-    title: "Massive Schäden im Ökosystem",
-    subtitle: "Wald, Boden, Wasser, Zufahrt",
-    to: "/oekosystem-shaden-sexau",
-  },
-  {
-    tone: "cyan",
-    icon: "i-lucide-bug",
-    title: "Der Dohlenkrebs – vom Aussterben bedroht",
-    subtitle: "Artenschutz im Peterswald",
-    to: "/dohlenkrebs-aussterben-sexau",
-  },
-  {
-    tone: "orange",
-    icon: "i-lucide-landmark",
-    title: "Die Hochburg – Kulturdenkmal",
-    subtitle: "Sichtachsen, Panorama, Tourismus",
-    to: "/hochburg-kulturdenkmal",
-  },
 
-  {
-    tone: "indigo",
-    icon: "i-lucide-sun",
-    title: "Schattenwurfprognose – unvollständig",
-    subtitle: "Fehlende Angaben & veraltete Daten",
-    to: "/schattenwurfprognose-unvollstaendig",
-  },
-  {
-    tone: "rose",
-    icon: "i-lucide-hammer",
-    title: "Rückbau – nur unvollständig",
-    subtitle: "Was im Boden bleibt",
-    to: "/rueckbau-unvollstaendig",
-  },
-  {
-    tone: "slate",
-    icon: "i-lucide-volume-2",
-    title: "Schall und Infraschall",
-    subtitle: "Belastung, Reichweite, Abstand",
-    to: "/schall-infraschall",
-  },
-
-  {
-    tone: "amber",
-    icon: "i-lucide-home",
-    title: "Immobilienwerte & Tourismus",
-    subtitle: "Wohnen, Attraktivität, Folgen",
-    to: "/sinkender-tourismus",
-  },
-  {
-    tone: "red",
-    icon: "i-lucide-shield-alert",
-    title: "Risiken für die Gemeinde Sexau",
-    subtitle: "Haftung, Insolvenz, Rückbaukosten",
-    to: "/risiken-gemeinde-sexau",
-  },
-
-  {
-    tone: "sky",
-    icon: "i-lucide-activity",
-    title: "Stromnetz – nicht geeignet",
-    subtitle: "Abregelung, negative Preise, Backup",
-    to: "/stromnetz-nicht-geeignet-erneuerbare",
-  },
-  {
-    tone: "violet",
-    icon: "i-lucide-scale",
-    title: "EEG – wie lange noch?",
-    subtitle: "Subventionen & Kurswechsel",
-    to: "/eeg-wie-lange-noch",
-  },
-
-  {
-    tone: "teal",
-    icon: "i-lucide-recycle",
-    title: "Rotorblätter – Mikroplastik & Recycling",
-    subtitle: "Abrieb, PFAS, Entsorgung",
-    to: "/rotorblaetter-mikroplastik-recycling",
-  },
-  {
-    tone: "lime",
-    icon: "i-lucide-wind",
-    title: "Schwachwindgebiet Schwarzwald",
-    subtitle: "Warum hier „Riesenanlagen“?",
-    to: "/schwachwindgebiet-schwarzwald",
-  },
-  {
-    tone: "lime",
-    icon: "i-lucide-wind",
-    title: "Gründe für abgelehnte oder zurückgezogene Vorhaben",
-    subtitle:
-      "Für die Ablehnung der Windparks im Sexauer Peterswald gibt es zahlreiche Gründe. Hier sind einige davon:",
-    to: "/gruende-abgelehnte-zurueckgezogene-vorhaben",
-  },
-];
 
 const pillars = [
   {
@@ -349,7 +252,7 @@ const pillars = [
               Die Gründe
             </h2>
             <UBadge color="neutral" variant="soft" class="hidden sm:inline-flex"
-              >12 Kapitel</UBadge
+              >{{ chapters.length }} Kapitel</UBadge
             >
           </div>
 
