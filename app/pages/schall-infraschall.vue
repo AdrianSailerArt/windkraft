@@ -34,9 +34,9 @@
             <div class="grid lg:grid-cols-12">
               <div class="lg:col-span-8 p-8 sm:p-12">
                 <div class="flex flex-wrap gap-2">
-                  <UBadge color="indigo" variant="soft" icon="i-lucide-audio-lines">Schall (dB(A))</UBadge>
-                  <UBadge color="rose" variant="soft" icon="i-lucide-waves">Infraschall</UBadge>
-                  <UBadge color="amber" variant="soft" icon="i-lucide-ruler">Abstand</UBadge>
+                  <UBadge color="info" variant="soft" icon="i-lucide-audio-lines">Schall (dB(A))</UBadge>
+                  <UBadge color="info" variant="soft" icon="i-lucide-waves">Infraschall</UBadge>
+                  <UBadge color="warning" variant="soft" icon="i-lucide-ruler">Abstand</UBadge>
                 </div>
     
                 <h1 class="mt-4 text-3xl sm:text-4xl font-extrabold tracking-tight">
@@ -45,8 +45,7 @@
     
                 <p class="mt-4 max-w-3xl text-gray-700 dark:text-gray-300 text-lg">
                   Windräder erzeugen Schall – und zusätzlich niederfrequente Schallanteile (Infraschall),
-                  die über große Distanzen wirksam sein können. Diese Seite fasst die im Text genannten
-                  Angaben und Quellen zusammen.
+                  die über große Distanzen wirksam sein können.
                 </p>
     
                 <div

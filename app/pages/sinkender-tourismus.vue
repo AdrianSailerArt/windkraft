@@ -113,7 +113,7 @@
                 <KpiBadge tone="amber" title="680 m" subtitle="Seilerhöfe" />
                 <KpiBadge tone="amber" title="870 m" subtitle="Eberbächle" />
                 <KpiBadge tone="rose" title="Tourismus" subtitle="betroffen" />
-                 <KpiBadge tone="rose" title="−7,1 %" subtitle="Ø Wertverlust Immobilien" />
+                 <KpiBadge tone="rose" title="−23 %" subtitle="Ø Wertverlust Immobilien" />
               </div>
   
               
@@ -212,7 +212,7 @@
                 </p>
   <br />
                 <p>
-                  Die Störung des Landschaftsbildes wäre bei den geplanten monströsen Windkraftanlagen in Sexau derart massiv, dass der Immobilienwert drastisch sinken würde.
+                  Die Störung des Landschaftsbildes wäre bei den geplanten monströsen Windkraftanlagen in Sexau derart massiv, dass der Immobilienwert möglicherweise drastisch sinken würde.
                 </p>
   <br />
                 <p>

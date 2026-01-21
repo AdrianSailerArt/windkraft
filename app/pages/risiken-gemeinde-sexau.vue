@@ -63,9 +63,9 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
             </h1>
 
             <p class="mt-4 max-w-3xl text-gray-700 dark:text-gray-300 text-lg">
-              Alle diese Einnahmen klingen auf den ersten Blick verlockend. Die
+              Die der Gemeinde Sexau in Aussicht gestellten Einnahmen klingen auf den ersten Blick verlockend. Die
               Risiken werden dadurch leicht verdrängt. Diese Risiken sind jedoch
-              durchaus real und werden mit jeder weiteren Wind-energieanlage
+              durchaus real und werden mit jeder weiteren in Deutschland errichtetend Windenergieanlage
               wahrscheinlicher.
             </p>
 
@@ -261,7 +261,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                     Alle diese Einnahmen klingen auf den ersten Blick
                     verlockend. Die Risiken werden dadurch leicht verdrängt.
                     Diese Risiken sind jedoch durchaus real und werden mit jeder
-                    weiteren Windenergieanlage wahrscheinlicher.
+                    weiteren in Deutschland errichteten Windenergieanlage wahrscheinlicher.
                   </p>
                 </div>
               </div>

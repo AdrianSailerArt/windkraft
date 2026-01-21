@@ -175,14 +175,7 @@
                       </div>
     
                       <div class="p-6 space-y-3 text-sm">
-                        <a
-                          href="https://report24.news/infraschall-von-windkraftanlagen-gesundheitsrisiko-oder-nocebo-effekt/"
-                          target="_blank"
-                          rel="noopener"
-                          class="block text-indigo-600 hover:underline dark:text-indigo-300"
-                        >
-                          https://report24.news/infraschall-von-windkraftanlagen-gesundheitsrisiko-oder-nocebo-effekt/
-                        </a>
+                       
                         <a
                           href="https://de.wikipedia.org/wiki/Dohlenkrebs"
                           target="_blank"

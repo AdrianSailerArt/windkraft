@@ -156,7 +156,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
             <div
               class="p-8 prose prose-gray dark:prose-invert prose-p:leading-relaxed max-w-none"
             >
-              <h2 class="text-xl">Rückbau laut Kurzbeschreibung</h2>
+              <h2 class="text-xl">Rückbau laut Betreibergesellschaft</h2>
               <br />
               <p>
                 Laut Unterlagen (Kurzbeschreibung) der Betreibergesellschaft

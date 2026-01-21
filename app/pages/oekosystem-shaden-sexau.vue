@@ -62,7 +62,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
             <p class="mt-4 max-w-3xl text-gray-700 dark:text-gray-300 text-lg">
               Der Schwarzwald gehört zu den schönsten und berühmtesten Gegenden
               Deutschlands. Touristen kommen von weit her, um hier zu wandern,
-              sich zu erholen und der noch weitgehend unberührten Natur zu
+              sich zu erholen und an der noch weitgehend unberührten Natur zu
               erfreuen.
             </p>
 
@@ -543,27 +543,16 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
         <!-- SIDEBAR -->
         <aside>
           <div class="sticky top-24 space-y-4">
+        
             <UCard
               class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5"
             >
               <div class="text-sm font-semibold mb-3">
-                Transport eines Rotorblattes mit dem Bladefilter (Quelle: EnBW)
-              </div>
-              <AssetImageViewer
-                src="/06.jpg"
-                alt="Transport eines Rotorblattes mit dem Bladefilter"
-                ratio="16/9"
-              />
-            </UCard>
-            <UCard
-              class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5"
-            >
-              <div class="text-sm font-semibold mb-3">
-                Der vermutlich geplante Zufahrsweg
+                Der vermutlich geplante Zufahrtsweg
               </div>
               <AssetImageViewer
                 src="/07.jpg"
-                alt="Der vermutlich geplante Zufahrsweg"
+                alt="Der vermutlich geplante Zufahrtsweg"
                 ratio="16/9"
               />
               <div class="mt-2 text-xs text-gray-600 dark:text-gray-400">

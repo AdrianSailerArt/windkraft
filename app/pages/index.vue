@@ -48,7 +48,7 @@ const chapters = [
     tone: "indigo",
     icon: "i-lucide-sun",
     title: "Schattenwurfprognose – unvollständig",
-    subtitle: "Fehlende Anlagen & veraltete Daten",
+    subtitle: "Fehlende Angaben & veraltete Daten",
     to: "/schattenwurfprognose-unvollstaendig",
   },
   {
@@ -110,6 +110,14 @@ const chapters = [
     subtitle: "Warum hier „Riesenanlagen“?",
     to: "/schwachwindgebiet-schwarzwald",
   },
+  {
+    tone: "lime",
+    icon: "i-lucide-wind",
+    title: "Gründe für abgelehnte oder zurückgezogene Vorhaben",
+    subtitle:
+      "Für die Ablehnung der Windparks im Sexauer Peterswald gibt es zahlreiche Gründe. Hier sind einige davon:",
+    to: "/gruende-abgelehnte-zurueckgezogene-vorhaben",
+  },
 ];
 
 const pillars = [
@@ -117,7 +125,7 @@ const pillars = [
     tone: "emerald",
     icon: "i-lucide-leaf",
     title: "Natur",
-    text: "Erhalten Sie die Natur im Sexauer Peterswald.",
+    text: "Erhalten Sie die Natur im Sexauer Peterswald. Schützen Sie den in Sexau heimischen und vom Aussterben bedrohten Dohlenkrebs.",
   },
   {
     tone: "amber",
@@ -130,34 +138,6 @@ const pillars = [
     icon: "i-lucide-heart",
     title: "Lebensqualität",
     text: "Erhalten Sie die Lebensqualität für die Einwohnerinnen und Einwohner von Sexau.",
-  },
-];
-
-const quickReasons = [
-  {
-    tone: "rose",
-    title: "Artenschutz",
-    text: "Der sehr seltene und vom Aussterben bedrohte Dohlenkrebs würde hier vermutlich endgültig ausgerottet.",
-  },
-  {
-    tone: "indigo",
-    title: "Planungsrechtliche Gründe",
-    text: "Der gesetzlichen Verpflichtung zum Rückbau der Windenergieanlagen nach deren Stilllegung wird nur teilweise entsprochen. Die Schattenwurfprognose enthält grobe Berechnungsfehler.",
-  },
-  {
-    tone: "orange",
-    title: "Denkmalschutz",
-    text: "Die Hochburg als besonders schützenswertes Kulturdenkmal würde ihren historischen Wert und ihre Attraktivität für den Tourismus erheblich einbüßen.",
-  },
-  {
-    tone: "emerald",
-    title: "Waldspezifische Gründe",
-    text: "Die vier Windenergieanlagen und die überdimensionale lange Zufahrt von 3 km mitten durch den Peterswald würde das Bodenökosystem massiv zerstören.",
-  },
-  {
-    tone: "amber",
-    title: "Gebietsspezifische Gründe",
-    text: "Wohnqualität, Immobilienwerte und Tourismus würden drastisch einbrechen.",
   },
 ];
 </script>
@@ -185,11 +165,10 @@ const quickReasons = [
             <p
               class="text-xs uppercase tracking-[0.2em] text-gray-500 dark:text-gray-400"
             >
-              Eine Entscheidung, die nicht rückgängig ist
+              Eine Entscheidung, die nicht rückgängig zu machen ist
             </p>
 
             <div class="mt-8 flex items-start gap-4">
-         
               <h1
                 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.05]"
               >
@@ -200,7 +179,11 @@ const quickReasons = [
                   Nicht später. Jetzt.
                 </span>
               </h1>
-                   <img src="/logo.png" alt="Gegenwind Sexau" class="h-40 w-auto flex-shrink-0" />
+              <img
+                src="/logo.png"
+                alt="Gegenwind Sexau"
+                class="h-40 w-auto flex-shrink-0"
+              />
             </div>
 
             <p class="mt-6 max-w-3xl text-lg text-gray-700 dark:text-gray-300">
@@ -210,7 +193,12 @@ const quickReasons = [
             </p>
 
             <div class="mt-8 flex flex-col sm:flex-row gap-3">
-              <UButton color="primary" size="lg" icon="i-lucide-pen-line" aria-label="Petition gegen Windparks im Sexauer Peterswald unterschreiben">
+              <UButton
+                color="primary"
+                size="lg"
+                icon="i-lucide-pen-line"
+                aria-label="Petition gegen Windparks im Sexauer Peterswald unterschreiben"
+              >
                 Petition unterschreiben
               </UButton>
             </div>
@@ -259,7 +247,31 @@ const quickReasons = [
               </div>
             </div>
           </div>
-
+          <div class="min-w-0">
+            <!-- noch stylen -->
+            <AssetImageViewer
+              class="mt-8"
+              src="/04.jpg"
+              alt="Grümde für abgelehnte oder zurückgezogene Vorhaben"
+              ratio="16/9"
+            />
+             <section class="mt-16">
+        <div class="mx-auto max-w-6xl">
+            <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">
+              Die Gemeinde Sexau - idyllische gelegen am Fuße der imposanten
+              Hochburg - ist bekannt für Natur, Ruhe und Entspannung inmitten
+              von Weinbergen und bewaldeten Höhen. Wenigstens bisher. Dies
+              könnte sich bald ändern durch die geplanten Windparks „Sexau
+              Peterswald I und II“. Die Betreibergesellschaft „Qualitas Energy
+              Projekt GmbH“ will insgesamt 4 Windkraftanlagen des Typs Vestas
+              V172 bauen, weniger als 3 km von Sexau entfernt. <br /><br />Damit würden die
+              Windräder in ganz Sexau und weit darüber hinaus, zum
+              beherrschenden Element in der Landschaft. Die Hochburg, die über
+              Sexau thront, würde verblassen unter den 4 Windrädern, jedes mit
+              einem gewaltigen Rotordurchmesser von 172 m und einer Gesamthöhe
+              von 261 m, jeweils 7,2 MW Leistung.
+            </p></div></section>
+          </div>
           <!-- Big statement card (your text, staged, but not reworded in meaning) -->
           <div
             class="mt-10 rounded-[2rem] border border-gray-200/60 dark:border-gray-800/60 bg-gradient-to-br from-white/80 via-gray-50/70 to-rose-50/60 dark:from-gray-950/26 dark:via-gray-950/18 dark:to-rose-950/12 p-7 sm:p-10"
@@ -326,76 +338,6 @@ const quickReasons = [
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- REASONS (as “feature highlights”) -->
-      <section class="mt-14">
-        <div class="mx-auto max-w-6xl">
-          <p
-            class="text-xs uppercase tracking-[0.2em] text-gray-500 dark:text-gray-400"
-          >
-            Auf den Punkt gebracht
-          </p>
-          <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold tracking-tight">
-            Fünf Gründe. Ein Ergebnis.
-          </h2>
-          <p class="mt-4 max-w-3xl text-gray-700 dark:text-gray-300">
-            Für die Ablehnung der Windparks im Sexauer Peterswald gibt es
-            zahlreiche Gründe. Hier sind einige davon:
-          </p>
-
-          <div class="mt-8 grid gap-4 md:grid-cols-2">
-            <div
-              v-for="r in quickReasons"
-              :key="r.title"
-              class="rounded-3xl border border-gray-200/60 dark:border-gray-800/60 bg-white/75 dark:bg-gray-950/25 p-6"
-            >
-              <div class="flex items-start justify-between gap-3">
-                <div>
-                  <p
-                    class="text-xs uppercase tracking-[0.2em] text-gray-500 dark:text-gray-400"
-                  >
-                    Grund
-                  </p>
-                  <p
-                    class="mt-2 text-xl font-extrabold text-gray-900 dark:text-gray-100"
-                  >
-                    {{ r.title }}
-                  </p>
-                </div>
-
-                <div
-                  class="h-10 w-10 rounded-2xl border border-gray-200/60 dark:border-gray-800/60 bg-white/70 dark:bg-gray-950/18 flex items-center justify-center"
-                >
-                  <span
-                    class="h-2.5 w-2.5 rounded-full"
-                    :class="[
-                      r.tone === 'rose' && 'bg-rose-500/70 dark:bg-rose-400/50',
-                      r.tone === 'indigo' &&
-                        'bg-indigo-500/70 dark:bg-indigo-400/50',
-                      r.tone === 'orange' &&
-                        'bg-orange-500/70 dark:bg-orange-400/50',
-                      r.tone === 'emerald' &&
-                        'bg-emerald-500/70 dark:bg-emerald-400/50',
-                      r.tone === 'amber' &&
-                        'bg-amber-500/70 dark:bg-amber-400/50',
-                    ]"
-                  />
-                </div>
-              </div>
-
-              <p class="mt-4 text-gray-700 dark:text-gray-300">
-                {{ r.text }}
-              </p>
-            </div>
-          </div>
-          <AssetImageViewer
-            class="mt-8"
-            src="/17.JPG"
-            alt="Grümde für abgelehnte oder zurückgezogene Vorhaben"
-            ratio="16/9"
-          />
         </div>
       </section>
 
@@ -481,6 +423,7 @@ const quickReasons = [
           </div>
         </div>
       </section>
+      <!-- REASONS (as “feature highlights”) -->
 
       <!-- FINAL CTA -->
       <section class="mt-16">
@@ -538,15 +481,13 @@ const quickReasons = [
           </p>
 
           <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold tracking-tight">
-            Wenn Windkraft ausfällt, schadet sie mehr, als sie nutzt
+            Wenn Windkraft ausfällt
           </h2>
 
           <p class="mt-6 max-w-4xl text-lg text-gray-700 dark:text-gray-300">
             Windenergie wird häufig isoliert betrachtet. In der Realität ist sie
             jedoch Teil eines Gesamtsystems. Fällt der Wind aus, muss
             Deutschland Strom importieren oder fossile Kraftwerke hochfahren.
-            Das führt zu höheren CO₂-Emissionen und konterkariert den
-            behaupteten Klimanutzen.
           </p>
 
           <div class="mt-8 grid gap-4 sm:grid-cols-2">
@@ -572,29 +513,14 @@ const quickReasons = [
               <p
                 class="text-lg font-extrabold text-gray-900 dark:text-gray-100"
               >
-                Kohlekraft als unverzichtbares Backup
+                Kohle und Gas als unverzichtbares Backup
               </p>
               <p class="mt-3 text-gray-700 dark:text-gray-300">
-                Trotz massivem Windkraftausbau bleiben Kohlekraftwerke
-                systemrelevant. Bei Dunkelflauten steigt ihre Stromproduktion
-                deutlich an – mit entsprechend schlechter CO₂-Bilanz.
+                Trotz massivem Windkraftausbau bleiben Kohle- und Gaskraftwerke
+                systemrelevant. Bei Dunkelflauten liefern diese den benötigten
+                Strom.
               </p>
             </div>
-          </div>
-
-          <div
-            class="mt-8 rounded-3xl border border-gray-200/60 dark:border-gray-800/60 bg-gray-50/70 dark:bg-gray-950/20 p-6"
-          >
-            <p class="font-semibold text-gray-900 dark:text-gray-100">
-              Vergleich Deutschland – Frankreich
-            </p>
-            <p class="mt-2 text-gray-700 dark:text-gray-300">
-              Frankreich erzeugt den Großteil seines Stroms stabil und CO₂-arm
-              aus Kernenergie. Deutschland hingegen weist durch Windflauten,
-              fossile Backups und Importe eine deutlich höhere
-              Emissionsintensität pro Kilowattstunde auf. Zusätzliche Windparks
-              ändern daran nichts – sie verschärfen das Problem.
-            </p>
           </div>
 
           <div class="mt-6 text-sm text-gray-500 dark:text-gray-400">

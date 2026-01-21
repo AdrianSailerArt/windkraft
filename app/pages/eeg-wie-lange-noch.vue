@@ -60,7 +60,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
             </h1>
 
             <p class="mt-4 max-w-3xl text-gray-700 dark:text-gray-300 text-lg">
-              Wie bereits beschrieben, erhalten Anlagenbetreiber Geld für NICHT
+            Anlagenbetreiber erhalten Geld für NICHT
               erzeugten Strom dank dem Erneuerbare-Energien-Gesetz (EEG), also
               aus Steuergeldern. Gezahlt wird die Differenz zwischen
               Strom-Markterlös („Marktwert“) und einem garantierten
@@ -251,7 +251,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               <h2 class="text-xl">EEG: Vergütung &amp; Investitionsanreiz</h2>
               <br />
               <p>
-                Wie bereits beschrieben, erhalten Anlagenbetreiber Geld für
+                Anlagenbetreiber erhalten Geld für
                 NICHT erzeugten Strom dank dem Erneuerbare-Energien-Gesetz
                 (EEG), also aus Steuergeldern. Gezahlt wird die Differenz
                 zwischen Strom-Markterlös („Marktwert“) und einem garantierten
@@ -466,21 +466,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               </div>
             </UCard>
 
-            <UCard
-              class="p-5 border bg-emerald-50/70 border-emerald-200/60 dark:bg-emerald-950/14 dark:border-emerald-900/30"
-            >
-              <div
-                class="text-sm font-semibold text-gray-900 dark:text-gray-100"
-              >
-                Kurzfazit
-              </div>
-              <p class="mt-2 text-sm text-gray-800 dark:text-gray-200">
-                Es stellt sich die Frage nach der Zukunft der EEG-Logik,
-                verweist auf Genehmigungsdynamik, Proteste, fehlende Gebote in
-                Ausschreibungen und politische Signale
-                (Monitoring/Solarspitzengesetz).
-              </p>
-            </UCard>
+          
           </div>
         </aside>
       </div>

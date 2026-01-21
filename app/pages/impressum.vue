@@ -39,6 +39,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               Kontakt
             </h2>
             <div class="space-y-2 text-gray-700 dark:text-gray-300">
+               <p>Bürgerinitiative Gegenwind Sexau</p>
               <p>Heidrun Schwörer</p>
             
               <p>Am Löwengarten 14</p>

@@ -165,7 +165,7 @@ useHead({
             >
               Dimension
             </p>
-            <p class="text-sm font-semibold">Vestas V172 (172 m)</p>
+            <p class="text-sm font-semibold">Vestas V172 (172 m) Rotordurchmesser / 261 m Gesamthöhe</p>
           </div>
         </UCard>
       </div>

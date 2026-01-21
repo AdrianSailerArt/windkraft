@@ -93,7 +93,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                   <p
                     class="text-sm font-semibold text-gray-900 dark:text-gray-100"
                   >
-                    „höchstem Maße raumwirksam“
+                    „In höchstem Maße raumwirksam“
                   </p>
                 </div>
                 <div

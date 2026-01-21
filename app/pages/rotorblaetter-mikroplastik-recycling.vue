@@ -64,8 +64,7 @@ useHead({
 
             <p class="mt-4 max-w-3xl text-gray-700 dark:text-gray-300 text-lg">
               Materialmix, Abrieb an den Vorderkanten (Leading Edge) und
-              Entsorgungsfragen: Diese Seite bündelt die im Text genannten
-              Punkte und Quellen.
+              Entsorgungsfragen
             </p>
 
             <div

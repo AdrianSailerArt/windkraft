@@ -85,7 +85,7 @@ definePageMeta({
               </UCard>
                <UCard class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5">
                 <div class="text-sm font-semibold mb-3">Sexau mit den geplanten Windenergieanlagen</div>
-                <AssetImageViewer src="/04.jpg" alt="Sexau mit den geplanten Windenergieanlagen" ratio="16/9" />
+                <AssetImageViewer src="/00.jpg" alt="Sexau mit den geplanten Windenergieanlagen" ratio="16/9" />
                
               </UCard>
            </div>

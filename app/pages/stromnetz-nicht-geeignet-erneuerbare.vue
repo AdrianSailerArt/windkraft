@@ -124,14 +124,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                 </div>
               </div>
 
-              <UAlert
-                class="mt-6"
-                color="neutral"
-                variant="soft"
-                icon="i-lucide-info"
-                title="Hinweis"
-                description="Der Text wird unverändert übernommen; Visuals dienen der Struktur und Dramaturgie."
-              />
+           
             </div>
           </div>
         </div>
@@ -363,7 +356,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               <br />
               <p>
                 Woher soll in dieser Zeit der benötigte Strom kommen? Die
-                Bundesregierung will deshalb zu-sätzliche Gaskraftwerke bauen
+                Bundesregierung will deshalb zusätzliche Gaskraftwerke bauen
                 lassen. In den nächsten Jahren sollen Anlagen mit einer Leistung
                 von zehn Gigawatt entstehen, hat der Koalitionsausschuss Mitte
                 November 2025 beschlossen. Das entspricht etwa 25 neuen
@@ -485,9 +478,9 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               <p>
                 Angesichts dieser Tatsache stellt sich die Frage, warum weitere
                 Windenergieanlagen geplant sind. Laut der Landesanstalt für
-                Umwelt Baden-Württemberg sind derzeit (Stand 11.08.2025) allein
-                in Baden-Württemberg 802 Windenergieanlagen in Betrieb, weitere
-                1.556 sind in Planung.
+                Umwelt Baden-Württemberg sind derzeit (Stand 19.01.2026) allein
+                in Baden-Württemberg 817 Windenergieanlagen in Betrieb, weitere
+                1.787 sind in Planung.
               </p>
 
               <!-- Quellen -->
@@ -655,7 +648,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               <p class="mt-2 text-sm text-gray-800 dark:text-gray-200">
                 Volatile Einspeisung, Netzstabilität (50 Hz),
                 Abregelung/Entschädigung, negative Börsenpreise und ungelöste
-                Speicherung – und sieht dadurch wachsende Instabilität.
+                Speicherung.
               </p>
             </UCard>
 
