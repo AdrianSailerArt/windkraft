@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <ChapterNavigation class="mt-4" />
+    <ChapterNavigation />
 
     <UContainer class="relative py-12">
       <!-- HERO -->
@@ -219,5 +219,6 @@
         </aside>
       </div>
     </UContainer>
+     <ChapterNavigation />
   </div>
 </template>

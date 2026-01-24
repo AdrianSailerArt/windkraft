@@ -25,7 +25,7 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
   <div class="relative">
     <!-- Background decoration (light + dark) -->
     
-  <ChapterNavigation class="mt-4" />
+  <ChapterNavigation />
     <UContainer class="relative py-12">
       <!-- HERO -->
       <UCard
@@ -461,6 +461,6 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
         </aside>
       </div>
     </UContainer>
-       <ChapterNavigation class="mt-4" />
+       <ChapterNavigation />
   </div>
 </template>

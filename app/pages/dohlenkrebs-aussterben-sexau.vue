@@ -24,7 +24,7 @@
     
     <template>
       <div class="relative">
- <ChapterNavigation class="mt-4" />
+ <ChapterNavigation />
         
             
         <UContainer class="relative py-12">
@@ -253,7 +253,7 @@
             </aside>
           </div>
         </UContainer>
-           <ChapterNavigation class="mt-4" />
+           <ChapterNavigation />
       </div>
     </template>
     

@@ -27,7 +27,7 @@ useHead({
 <template>
   <div class="relative">
 
-  <ChapterNavigation class="mt-4" />
+  <ChapterNavigation />
     <UContainer class="relative py-12">
       <!-- HERO -->
       <UCard
@@ -506,6 +506,6 @@ useHead({
         </aside>
       </div>
     </UContainer>
-       <ChapterNavigation class="mt-4" />
+       <ChapterNavigation />
   </div>
 </template>

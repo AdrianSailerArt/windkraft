@@ -30,8 +30,8 @@ const quickReasons = [
 
 <template>
   <div>
-    <ChapterNavigation class="mt-4" />
-    <section class="mt-14">
+    <ChapterNavigation />
+    <UContainer class="relative py-12">
       <div class="mx-auto max-w-6xl">
         <p
           class="text-xs uppercase tracking-[0.2em] text-gray-500 dark:text-gray-400"
@@ -98,7 +98,7 @@ const quickReasons = [
             alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
         /></UCard>
       </div>
-    </section>
-    <ChapterNavigation class="mt-4" />
+    </UContainer>
+    <ChapterNavigation />
   </div>
 </template>
