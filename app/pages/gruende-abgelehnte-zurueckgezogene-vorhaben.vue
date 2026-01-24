@@ -45,7 +45,11 @@ const quickReasons = [
           Für die Ablehnung der Windparks im Sexauer Peterswald gibt es
           zahlreiche Gründe. Hier sind einige davon:
         </p>
-
+        <p class="mt-2 max-w-3xl text-gray-700 dark:text-gray-300">
+          Laut Umfrage der Fachagentur „Wind an Land“ wurden 2022 republikweit
+          zehn Prozent aller Windkraftprojekte aus Denkmalschutzgründen von den
+          Behörden abgelehnt oder von den Antragstellenden zurückgezogen.
+        </p>
         <div class="mt-8 grid gap-4 md:grid-cols-2">
           <div
             v-for="r in quickReasons"
@@ -99,34 +103,66 @@ const quickReasons = [
             caption="Quelle: Fachagentur Windenergie"
         /></UCard>
       </div>
-       <!-- Quellen -->
-                  <div class="not-prose mt-10">
-                    <UCard class="bg-white/85 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 overflow-hidden">
-                      <div class="px-6 py-4 bg-gradient-to-r from-gray-50/70 via-white to-gray-50/60 dark:from-gray-950/12 dark:via-gray-950/10 dark:to-gray-950/10 border-b border-gray-200/60 dark:border-gray-800/60">
-                        <div class="flex items-center justify-between gap-3">
-                          <div>
-                            <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">Quellen</p>
-                            <p class="text-sm font-semibold text-gray-900 dark:text-gray-100">Links & Dokument</p>
-                          </div>
-                          <UBadge color="neutral" variant="soft">Quellen</UBadge>
-                        </div>
-                      </div>
-    
-                      <div class="p-6 space-y-3 text-sm">
-                       
-                      
-                        <a
-                          href="https://www.enbw.com/unternehmen/themen/windkraft/windenergie-und-denkmalschutz.html"
-                          target="_blank"
-                          rel="noopener"
-                          class="block text-indigo-600 hover:underline dark:text-indigo-300"
-                        >
-                         https://www.enbw.com/unternehmen/themen/windkraft/windenergie-und-denkmalschutz.html
-    </a>
-                       
-                      </div>
-                    </UCard>
-                  </div>
+       <UContainer class="relative py-6">
+      <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold tracking-tight">
+        Der Sexauer Peterswald ist einfach der falsche Standort für Windparks.
+        Es gibt weitaus geeignetere Standorte für Windenergieanlagen.
+      </h2>
+      <p class="mt-4 max-w-3xl text-gray-700 dark:text-gray-300">
+        Stoppen Sie die Windparks im Sexauer Peterswald. Für eine sichere
+        Energieversorgung werden die Windanlagen nicht gebraucht. Bereits heute
+        werden Windanlagen immer wieder abgeregelt oder ganz abgeschaltet, weil
+        ansonsten zu viel Windenergie ins Stromnetz eingespeist werden würde.
+        Bis die Windanlagen in Sexau im Jahr 2029 in Betrieb genommen werden
+        könnten, werden noch zahlreiche Windanlagen in anderen Städten und
+        Gemeinden gebaut sein, ganz zu schweigen von den vielen zusätzlichen
+        Photovoltaikanlagen.
+      </p>
+      <p class="mt-4 max-w-3xl text-gray-700 dark:text-gray-300">
+        Zusätzlich werden die Windstromleitungen Südlink und Ultranet im Jahr
+        2028 fertiggestellt sein und dann Strom bis nach Baden-Württemberg
+        bringen. Spätestens dann wird Windenergie wohl nicht mehr
+        subventioniert. Ohne die Subventionierung durch das
+        Erneuerbare-Energien-Gesetz (EEG), wird jede Windenergieanlage zum
+        Minusgeschäft.
+      </p></UContainer>
+      <!-- Quellen -->
+      <div class="not-prose mt-10">
+        <UCard
+          class="bg-white/85 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 overflow-hidden"
+        >
+          <div
+            class="px-6 py-4 bg-gradient-to-r from-gray-50/70 via-white to-gray-50/60 dark:from-gray-950/12 dark:via-gray-950/10 dark:to-gray-950/10 border-b border-gray-200/60 dark:border-gray-800/60"
+          >
+            <div class="flex items-center justify-between gap-3">
+              <div>
+                <p
+                  class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400"
+                >
+                  Quellen
+                </p>
+                <p
+                  class="text-sm font-semibold text-gray-900 dark:text-gray-100"
+                >
+                  Links & Dokument
+                </p>
+              </div>
+              <UBadge color="neutral" variant="soft">Quellen</UBadge>
+            </div>
+          </div>
+
+          <div class="p-6 space-y-3 text-sm">
+            <a
+              href="https://www.enbw.com/unternehmen/themen/windkraft/windenergie-und-denkmalschutz.html"
+              target="_blank"
+              rel="noopener"
+              class="block text-indigo-600 hover:underline dark:text-indigo-300"
+            >
+              https://www.enbw.com/unternehmen/themen/windkraft/windenergie-und-denkmalschutz.html
+            </a>
+          </div>
+        </UCard>
+      </div>
     </UContainer>
     <ChapterNavigation />
   </div>
