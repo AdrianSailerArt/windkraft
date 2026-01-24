@@ -222,5 +222,6 @@
         </aside>
       </div>
     </UContainer>
+       <ChapterNavigation class="mt-4" />
   </div>
 </template>

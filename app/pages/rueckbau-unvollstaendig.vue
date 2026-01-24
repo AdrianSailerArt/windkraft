@@ -355,5 +355,6 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
         </aside>
       </div>
     </UContainer>
+       <ChapterNavigation class="mt-4" />
   </div>
 </template>
