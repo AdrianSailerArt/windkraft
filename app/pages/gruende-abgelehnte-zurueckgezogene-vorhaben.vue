@@ -94,7 +94,7 @@ const quickReasons = [
         <AssetImageViewer
           class="mt-8"
           src="/17.JPG"
-          alt="Grümde für abgelehnte oder zurückgezogene Vorhaben"
+          alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
           ratio="16/9"
         />
       </div>

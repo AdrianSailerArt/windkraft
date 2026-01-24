@@ -3,7 +3,9 @@
 import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image'],
-
+app: {
+    baseURL: '/'
+  },
   runtimeConfig: {
     public: {
       siteUrl: 'https://gegenwind-sexau.de',

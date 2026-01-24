@@ -155,7 +155,7 @@ const pillars = [
             <AssetImageViewer
               class="mt-8"
               src="/04.jpg"
-              alt="Grümde für abgelehnte oder zurückgezogene Vorhaben"
+              alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
               ratio="16/9"
             />
              <section class="mt-16">
