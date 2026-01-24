@@ -146,7 +146,8 @@ const pillars = [
               </p>
 
               <div class="mt-4 text-xs text-gray-500 dark:text-gray-400">
-                Mehr dazu in den Kapiteln unten.
+                <a href="#chapter">
+                Mehr dazu in den Kapiteln unten.</a>
               </div>
             </div>
           </div>
@@ -247,7 +248,7 @@ const pillars = [
       </section>
 
       <!-- CHAPTER GRID (portfolio tiles) -->
-      <section class="mt-14">
+      <section class="mt-14" id="chapter">
         <div class="mx-auto max-w-6xl">
           <div class="mt-2 flex items-end justify-between gap-4">
             <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
