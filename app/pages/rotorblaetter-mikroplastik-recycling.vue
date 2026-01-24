@@ -481,13 +481,12 @@ useHead({
             <UCard
               class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5"
             >
-              <div class="text-sm font-semibold mb-3">
-                Mikroplastikabrieb bei Windrädern
-              </div>
+             
               <AssetImageViewer
+              title="  Mikroplastikabrieb bei Windrädern"
                 src="/07.png"
                 alt="Mikroplastikabrieb bei Windrädern"
-                ratio="16/9"
+               
               />
             </UCard>
             <UCard

@@ -155,8 +155,8 @@ const pillars = [
             <AssetImageViewer
               class="mt-8"
               src="/04.jpg"
-              alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
-              ratio="16/9"
+              alt="Sexau mit Windrädern"
+             
             />
              <section class="mt-16">
         <div class="mx-auto max-w-6xl">

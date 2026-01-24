@@ -236,10 +236,12 @@
             <aside>
               <div class="sticky top-24 space-y-4">
                 <UCard class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5">
-                <div class="text-sm font-semibold mb-3">Der vom Aussterben bedrohte Dohlenkrebs (Austropotamobius pallipes)</div>
-                <AssetImageViewer src="/09.jpg" alt="Der vom Aussterben bedrohte Dohlenkrebs (Austropotamobius pallipes)" ratio="16/9" />
-               <span class="text-sm ">Bild: https://www.ag.ch/de/themen/landwirtschaft-tiere/wild-wassertiere/wassertiere-lebensraeume/projekte/foerderung-stein-und-dohlenkrebs 
-</span>
+                
+                <AssetImageViewer src="/09.jpg"
+                caption="Bild: https://www.ag.ch/de/themen/landwirtschaft-tiere/wild-wassertiere/wassertiere-lebensraeume/projekte/foerderung-stein-und-dohlenkrebs "
+                title="Der vom Aussterben bedrohte Dohlenkrebs (Austropotamobius pallipes)"
+                alt="Der vom Aussterben bedrohte Dohlenkrebs (Austropotamobius pallipes)" />
+      
               </UCard>
                 <UCard class="p-5 border bg-emerald-50/70 border-emerald-200/60 dark:bg-emerald-950/15 dark:border-emerald-900/35">
                   <div class="text-sm font-semibold text-gray-900 dark:text-gray-100">Kurzfazit</div>

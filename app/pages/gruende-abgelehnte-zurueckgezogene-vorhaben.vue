@@ -30,7 +30,7 @@ const quickReasons = [
 
 <template>
   <div>
-      <ChapterNavigation class="mt-4" />
+    <ChapterNavigation class="mt-4" />
     <section class="mt-14">
       <div class="mx-auto max-w-6xl">
         <p
@@ -91,14 +91,14 @@ const quickReasons = [
             </p>
           </div>
         </div>
-        <AssetImageViewer
-          class="mt-8"
-          src="/17.JPG"
-          alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
-          ratio="16/9"
-        />
+        <UCard class="m-8">
+          <AssetImageViewer
+            title="Gründe für abgelehnte oder zurückgezogene Vorhaben"
+            src="/17.JPG"
+            alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
+        /></UCard>
       </div>
     </section>
-       <ChapterNavigation class="mt-4" />
+    <ChapterNavigation class="mt-4" />
   </div>
 </template>

@@ -255,13 +255,12 @@ useHead({
             <UCard
               class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5"
             >
-              <div class="text-sm font-semibold mb-3">
-                Entwicklung der Rotordurchmesser
-              </div>
+            
               <AssetImageViewer
+              title=" Entwicklung der Rotordurchmesser"
                 src="/1.jpeg"
                 alt="Weiterentwicklung der Rotordurchmesser"
-                ratio="16/9"
+              
               />
               <UButton
                 to="https://www.vestas.de/content/dam/vestas-com/de/anlagentechnologie/EnVentus-Plattform_Q1-2022_VestasBrochure_DE_WEB.pdf.coredownload.inline.pdf"

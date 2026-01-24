@@ -536,18 +536,15 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
             <UCard
               class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5"
             >
-              <div class="text-sm font-semibold mb-3">
-                Der vermutlich geplante Zufahrtsweg
-              </div>
+            
               <AssetImageViewer
+              title=" Der vermutlich geplante Zufahrtsweg"
                 src="/07.jpg"
                 alt="Der vermutlich geplante Zufahrtsweg"
-                ratio="16/9"
+                caption="Quelle: Google Earth, Data attribution 3/18/2025 – ergänzt durch
+                eigene Darstellung des Zufahrtsweges und der Windräder"
               />
-              <div class="mt-2 text-xs text-gray-600 dark:text-gray-400">
-                Quelle: Google Earth, Data attribution 3/18/2025 – ergänzt durch
-                eigene Darstellung des Zufahrtsweges und der Windräder
-              </div>
+             
             </UCard>
           </div>
         </aside>

@@ -289,31 +289,17 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               <div
                 class="not-prose my-8 rounded-2xl border border-gray-200/60 dark:border-gray-800/60 bg-white/70 dark:bg-gray-950/20 p-5"
               >
-                <div class="flex items-center justify-between gap-3">
-                  <div>
-                    <p
-                      class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400"
-                    >
-                      Grafik
-                    </p>
-                    <p
-                      class="text-sm font-semibold text-gray-900 dark:text-gray-100"
-                    >
-                      Maximale Einspeisung aus Windenergieanlagen im Jahr 2022
-                    </p>
-                  </div>
-                  <UBadge color="info" variant="soft">Bundesnetzagentur</UBadge>
-                </div>
+              
                 <div class="mt-4">
                   <AssetImageViewer
+                  title="Maximale Einspeisung aus Windenergieanlagen im Jahr 2022"
                     src="/15.JPG"
-                    alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
-                    ratio="16/9"
+                    alt="Maximale Einspeisung aus Windenergieanlagen im Jahr 2022"
+                    caption="Grafik: Bundesnetzagentur"
                   />
                 </div>
-                <p class="mt-3 text-xs text-gray-500 dark:text-gray-400">
-                  Grafik: Bundesnetzagentur
-                </p>
+             
+                
               </div>
               <br />
               <p>
@@ -395,33 +381,17 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
               <div
                 class="not-prose my-8 rounded-2xl border border-gray-200/60 dark:border-gray-800/60 bg-white/70 dark:bg-gray-950/20 p-5"
               >
-                <div class="flex items-center justify-between gap-3">
-                  <div>
-                    <p
-                      class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400"
-                    >
-                      Grafik
-                    </p>
-                    <p
-                      class="text-sm font-semibold text-gray-900 dark:text-gray-100"
-                    >
-                      Anzahl der Stunden mit negativen Börsenstrompreisen pro
-                      Jahr seit 2015
-                    </p>
-                  </div>
-                  <UBadge color="info" variant="soft">Quelle</UBadge>
-                </div>
+               
                 <div class="mt-4">
                   <AssetImageViewer
                     src="/16.JPG"
+                    title="Anzahl der Stunden mit negativen Börsenstrompreisen pro Jahr seit 2015"
                     alt="Anzahl der Stunden mit negativen Börsenstrompreisen pro Jahr seit 2015"
-                    ratio="16/9"
+                    caption="    Quelle:
+                  https://www.klimaschutz-niedersachsen.de/aktuelles/Solarspitzengesetz-in-Kraft-was-aendert-sich-fuer-neue-PV-Anlagen-4233"
                   />
                 </div>
-                <p class="mt-3 text-xs text-gray-500 dark:text-gray-400">
-                  Quelle:
-                  https://www.klimaschutz-niedersachsen.de/aktuelles/Solarspitzengesetz-in-Kraft-was-aendert-sich-fuer-neue-PV-Anlagen-4233
-                </p>
+                
               </div>
               <br />
               <h2 class="text-xl">Lösungen – erst im Entstehen</h2>

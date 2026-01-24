@@ -1,6 +1,5 @@
 <template>
   <div class="relative">
-  
     <ChapterNavigation class="mt-4" />
 
     <UContainer class="relative py-12">
@@ -198,30 +197,27 @@
             <UCard
               class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5"
             >
-              <div class="text-sm font-semibold mb-3">Höhenprofil</div>
-              <AssetImageViewer src="/03.jpg" alt="Höhenprofil" ratio="16/9" />
-              <span class="text-sm">
-                Die jeweiligen Höhen sind maßstabgerecht eingezeichnet, Maßstab
-                1:5000 Höhen aus Angaben von Google Earth errechnet
-              </span>
+              <AssetImageViewer
+                title="Höhenprofil"
+                src="/03.jpg"
+                alt="Höhenprofil"
+                caption="Die jeweiligen Höhen sind maßstabgerecht eingezeichnet, Maßstab
+                1:5000 Höhen aus Angaben von Google Earth errechnet"
+              />
             </UCard>
 
             <UCard
               class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5"
             >
-              <div class="text-sm font-semibold mb-3">
-                Sexau mit den geplanten Windenergieanlagen
-              </div>
               <AssetImageViewer
+                title="  Sexau mit den geplanten Windenergieanlagen"
                 src="/00.jpg"
                 alt="Sexau mit den geplanten Windenergieanlagen"
-                ratio="16/9"
               />
             </UCard>
           </div>
         </aside>
       </div>
     </UContainer>
-       <ChapterNavigation class="mt-4" />
   </div>
 </template>

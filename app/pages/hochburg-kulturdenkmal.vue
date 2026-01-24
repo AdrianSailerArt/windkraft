@@ -350,18 +350,16 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
             <UCard
               class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5"
             >
-              <div class="text-sm font-semibold mb-3">
-                Blick von der Hochburg mit den geplanten Windrädern
-              </div>
+             
               <AssetImageViewer
+              title="Blick von der Hochburg mit den geplanten Windrädern"
                 src="/10.jpg"
                 alt="Blick von der Hochburg mit den geplanten Windrädern"
-                ratio="16/9"
+                caption="Quelle: Google Earth, Data attribution 3/18/2025 – ergänzt
+                durch eigene Darstellung der Windräder"
+               
               />
-              <span class="text-sm"
-                >Quelle: Google Earth, Data attribution 3/18/2025 – ergänzt
-                durch eigene Darstellung der Windräder</span
-              >
+            
             </UCard>
 
             <UCard
