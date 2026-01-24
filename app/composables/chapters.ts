@@ -4,7 +4,7 @@ export const chapters = [
     icon: "i-lucide-trees",
     title: "Massive Schäden im Ökosystem",
     subtitle: "Wald, Boden, Wasser, Zufahrt",
-    to: "/oekosystem-shaden-sexau",
+    to: "/oekosystem-schaden-sexau",
   },
   {
     tone: "cyan",

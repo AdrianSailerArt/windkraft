@@ -213,6 +213,7 @@
                 title="  Sexau mit den geplanten Windenergieanlagen"
                 src="/00.jpg"
                 alt="Sexau mit den geplanten Windenergieanlagen"
+                caption="Quelle: Google Earth, Data attribution 3/18/2025 – ergänzt durch eigene Darstellung der Windräder"
               />
             </UCard>
           </div>

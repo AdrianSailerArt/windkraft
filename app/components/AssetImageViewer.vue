@@ -75,7 +75,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
           :is="isPublicAsset ? 'img' : NuxtImg"
           :src="src"
           :alt="alt"
-          class="max-h-[70vh] w-auto max-w-full object-contain
+          class="max-h-[70vh] w-auto max-w-full object-contain cursor-pointer
                  transition-transform duration-300 group-hover:scale-[1.01]"
           :preset="!isPublicAsset ? preset : undefined"
           :sizes="!isPublicAsset ? sizes : undefined"

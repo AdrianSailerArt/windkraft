@@ -335,9 +335,10 @@ useHead({
               class="bg-white/90 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 p-5"
             >
               <AssetImageViewer
-                title="Die Entfernung der Windkraftanlagen zu den Ortschaften"
+                title="Die Entfernung der Windkraftanlagen (WKA) zu den Ortschaften"
                 src="/05.JPG"
                 alt="Die Entfernung der Windkraftanlagen zu den Ortschaften"
+                caption="Quelle: Google Earth, Data attribution 3/18/2025 – ergänzt durch eigene Darstellung "
               />
             </UCard>
 

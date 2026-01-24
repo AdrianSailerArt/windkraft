@@ -424,7 +424,8 @@ const months = [
                     src="/12.png"
                     alt="Veränderung der Sonnenscheindauer (DWD) – Vergleich der Referenzperioden"
                     title="Veränderung der Sonnenscheindauer (DWD) – Vergleich der Referenzperioden"
-                  />
+                    caption="In der Grafik sieht man die Veränderung der Sonnenscheindauer in h (oben) bzw. Prozent (unten) für die einzelnen Monate, Jahreszeiten und das Gesamtjahr) im Vergleich verschiedener Referenzperioden zu 1961 bis 1990."
+                  /><br />
                   <AssetImageViewer
                     src="/13.JPG"
                     alt="Veränderung der Sonnenscheindauer (DWD) – Vergleich der Referenzperioden"

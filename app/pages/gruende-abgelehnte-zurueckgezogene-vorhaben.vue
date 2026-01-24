@@ -96,8 +96,37 @@ const quickReasons = [
             title="Gründe für abgelehnte oder zurückgezogene Vorhaben"
             src="/17.JPG"
             alt="Gründe für abgelehnte oder zurückgezogene Vorhaben"
+            caption="Quelle: Fachagentur Windenergie"
         /></UCard>
       </div>
+       <!-- Quellen -->
+                  <div class="not-prose mt-10">
+                    <UCard class="bg-white/85 dark:bg-gray-950/25 border border-gray-200/60 dark:border-gray-800/60 overflow-hidden">
+                      <div class="px-6 py-4 bg-gradient-to-r from-gray-50/70 via-white to-gray-50/60 dark:from-gray-950/12 dark:via-gray-950/10 dark:to-gray-950/10 border-b border-gray-200/60 dark:border-gray-800/60">
+                        <div class="flex items-center justify-between gap-3">
+                          <div>
+                            <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">Quellen</p>
+                            <p class="text-sm font-semibold text-gray-900 dark:text-gray-100">Links & Dokument</p>
+                          </div>
+                          <UBadge color="neutral" variant="soft">Quellen</UBadge>
+                        </div>
+                      </div>
+    
+                      <div class="p-6 space-y-3 text-sm">
+                       
+                      
+                        <a
+                          href="https://www.enbw.com/unternehmen/themen/windkraft/windenergie-und-denkmalschutz.html"
+                          target="_blank"
+                          rel="noopener"
+                          class="block text-indigo-600 hover:underline dark:text-indigo-300"
+                        >
+                         https://www.enbw.com/unternehmen/themen/windkraft/windenergie-und-denkmalschutz.html
+    </a>
+                       
+                      </div>
+                    </UCard>
+                  </div>
     </UContainer>
     <ChapterNavigation />
   </div>

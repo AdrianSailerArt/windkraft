@@ -153,6 +153,8 @@ const pillars = [
           <div class="min-w-0">
             <!-- noch stylen -->
             <AssetImageViewer
+            title="Sexau mit den geplanten Windenergieanlagen"
+            caption="Quelle: Google Earth, Data attribution 3/18/2025 – ergänzt durch eigene Darstellung der Windräder"
               class="mt-8"
               src="/04.jpg"
               alt="Sexau mit Windrädern"

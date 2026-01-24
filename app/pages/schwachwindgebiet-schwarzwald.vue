@@ -260,6 +260,7 @@ useHead({
               title=" Entwicklung der Rotordurchmesser"
                 src="/1.jpeg"
                 alt="Weiterentwicklung der Rotordurchmesser"
+                caption="Quelle: EnVentus-Plattform_Q1-2022_VestasBrochure_DE_WEB.pdf"
               
               />
               <UButton
