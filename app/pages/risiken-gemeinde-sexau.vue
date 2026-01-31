@@ -481,12 +481,12 @@ useHead({ link: canonical ? [{ rel: "canonical", href: canonical }] : [] });
                       https://www.familienunternehmer.eu/
                     </a>
                     <a
-                      href="https://denkfabrik-r21.de/der-befreiungsschlag/"
+                      href="https://denkfabrik-r21.de/r21-podcast-weimann-fordert-klimapolitischen-befreiungsschlag/"
                       target="_blank"
                       rel="noopener"
                       class="block text-indigo-600 hover:underline dark:text-indigo-300"
                     >
-                      https://denkfabrik-r21.de/der-befreiungsschlag/
+                    https://denkfabrik-r21.de/r21-podcast-weimann-fordert-klimapolitischen-befreiungsschlag/
                     </a>
                   </div>
                 </UCard>
